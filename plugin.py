@@ -484,7 +484,7 @@ class BasePlugin:
     #            Domoticz.Log('Import VArh since last reset: {0:.3f} kVArh'.format(Import_VArh_since_last_reset))
     #            Domoticz.Log('Export VArh since last reset: {0:.3f} kVArh'.format(Export_VArh_since_last_reset))
     #            Domoticz.Log('VAh since last reset: {0:.3f} kVAh'.format(VAh_since_last_reset))
-                Domoticz.Log('Ah since last reset: {0:.3f} Vh'.format(Ah_since_last_reset))
+    #            Domoticz.Log('Ah since last reset: {0:.3f} Vh'.format(Ah_since_last_reset))
                 Domoticz.Log('Total system power demand: {0:.3f} W'.format(Total_system_power_demand))
      #           Domoticz.Log('Maximum total system power_demand: {0:.3f} VA'.format(Maximum_total_system_power_demand))
      #           Domoticz.Log('Total system VA demand: {0:.3f} VA'.format(Total_system_VA_demand))
