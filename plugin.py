@@ -301,7 +301,7 @@ class BasePlugin:
  #                Export_VArh_since_last_reset = self.rs485.read_float(78, functioncode=4, numberOfRegisters=2)
  #                VAh_since_last_reset = self.rs485.read_float(80, functioncode=4, numberOfRegisters=2)
  #                Ah_since_last_reset = self.rs485.read_float(82, functioncode=4, numberOfRegisters=2)
- #                Total_system_power_demand = self.rs485.read_float(84, functioncode=4, numberOfRegisters=2)
+                 Total_system_power_demand = self.rs485.read_float(84, functioncode=4, numberOfRegisters=2)
  #                Maximum_total_system_power_demand = self.rs485.read_float(86, functioncode=4, numberOfRegisters=2)
  #                Total_system_VA_demand = self.rs485.read_float(100, functioncode=4, numberOfRegisters=2)
  #                Maximum_total_system_VA_demand = self.rs485.read_float(102, functioncode=4, numberOfRegisters=2)
