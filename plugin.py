@@ -119,8 +119,8 @@ class BasePlugin:
 #        if 30 not in Devices:
 #            Domoticz.Device(Name="Total System Phase Angle", Unit=30,TypeName="Custom",Used=0,Options=Options).Create()
 #        Options = { "Custom" : "1;Hz"}
-        if 31 not in Devices:
-            Domoticz.Device(Name="Frequency of supply voltages", Unit=31,TypeName="Custom",Used=0,Options=Options).Create()
+#        if 31 not in Devices:
+#           Domoticz.Device(Name="Frequency of supply voltages", Unit=31,TypeName="Custom",Used=0,Options=Options).Create()
         if 32 not in Devices:
             Domoticz.Device(Name="Import Wh since last reset", Unit=32,Type=0x71,Subtype=0x0,Used=0).Create()
         if 33 not in Devices:
