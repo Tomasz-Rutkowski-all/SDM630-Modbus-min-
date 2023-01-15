@@ -294,7 +294,7 @@ class BasePlugin:
  #                Total_System_Reactive_Power = self.rs485.read_float(60, functioncode=4,numberOfRegisters=2)
  #                Total_System_Power_Factor = self.rs485.read_float(62, functioncode=4,numberOfRegisters=2)
  #                Total_System_Phase_Angle = self.rs485.read_float(66, functioncode=4, numberOfRegisters=2)
-                 Frequency_Of_Supply_Voltages = self.rs485.read_float(70, functioncode=4, numberOfRegisters=2)
+ #                Frequency_Of_Supply_Voltages = self.rs485.read_float(70, functioncode=4, numberOfRegisters=2)
                  Import_Wh_since_last_reset = self.rs485.read_float(72, functioncode=4, numberOfRegisters=2)
                  Export_Wh_since_last_reset = self.rs485.read_float(74, functioncode=4, numberOfRegisters=2)
  #                Import_VArh_since_last_reset = self.rs485.read_float(76, functioncode=4, numberOfRegisters=2)
